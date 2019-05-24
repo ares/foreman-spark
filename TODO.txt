@@ -1,4 +1,3 @@
-PostgreSQL password should be randomly generated and stored, or we should support vault
 Should we install certificate on local host, proxy would trust Foreman at least during registration
 Proxy - ansible cfg configuration files seems deployed but check it's configuration
 Proxy - dynflow core configuration files seems deployed, but foreman_url seems to point to localhost

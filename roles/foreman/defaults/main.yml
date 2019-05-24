@@ -1,4 +1,6 @@
 ---
-foreman_database_name: foreman
+foreman_database: "{{ foreman_postgresql_database }}"
+foreman_database_user: "{{ foreman_postgresql_user }}"
+foreman_database_password: "{{ foreman_postgresql_password }}"
 foreman_default_location: Datacenter 1
 foreman_default_organization: Default Organization

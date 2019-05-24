@@ -13,7 +13,7 @@
     foreman_admin_password: changeme
   pre_tasks:
     - include_vars:
-        file: certs.yml
+        file: ./certs.yml
       failed_when: false
   roles:
     - foreman_ca
